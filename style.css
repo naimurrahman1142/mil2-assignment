@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&family=Roboto&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0;
+}
+
+/* banner style starts */
+.top-banner {
+
+    margin: 30px 130px 130px 180px;
+}
+
+.banner-info {
+    display: flex;
+    background-color: #161616;
+    border-radius: 15px;
+}
+
+.banner-tittle {
+    margin: 20px 40px;
+
+}
+
+.banner-text {
+    color: white;
+    font-weight: 600;
+    font-size: 65px;
+}
+
+#b-text {
+    font-size: 16px;
+    color: white;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.banner-img {
+    position: relative;
+    width: 380px;
+    height: 550px;
+    margin-top: 15px;
+    margin-right: 45px;
+}
+
+/* banner style starts */
+#width {}
+
+.cointainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+
+}
+
+/* side box style starts */
+.box {
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+
+
+}
+
+.box-btn {
+
+    margin-left: 30px;
+    padding: 30px;
+
+
+}
+
+.button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 12px 19px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+
+}
+
+#group {
+    padding: 12px 52px;
+}
+
+#blog-btn {
+    padding: 12px 75px;
+    background-color: #DD0000;
+    color: white;
+}
+
+/* side box style ends */
+/* side blog style starts */
+.transfer-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.tranfer-box {
+    width: 312px;
+    height: 362px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #E8E8E8;
+    background-color: lightcoral;
+}
+
+.transfer-img,
+img {
+    width: 312px;
+    height: 175px;
+    margin-top: -1px;
+}
+
+.tranfer-info {
+    padding-left: 20px;
+}
+
+#tns-btn {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 16px;
+    border-radius: 5px;
+}
+
+#font-awsome {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 88px;
+}
+
+/* main section ends */
+/* footer style starts */
+.footer {
+    width: 1600px;
+    height: 444px;
+    background-color: #161616;
+
+}
+
+
+
+.foot-text {
+    color: white;
+
+}
+
+.foot-short-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-icon {
+    display: flex;
+    justify-content: center;
+
+}
