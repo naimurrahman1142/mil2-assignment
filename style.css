@@ -282,3 +282,49 @@ body {
 }
 
 /* All Group style ends */
+
+/* media query breakpoints mobile starts */
+@media only screen and (max-width:688px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .banner-info {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-tittle {
+        text-align: center;
+    }
+
+    .banner-text {
+        font-size: 45px;
+    }
+
+    .box {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+    }
+
+    .top-banner {
+        align-items: center;
+    }
+
+    .grid {
+        display: none;
+        /* grid-template-columns: repeat(1, 1fr); */
+        flex-wrap: wrap;
+
+    }
+
+    .transfer-boxes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}
