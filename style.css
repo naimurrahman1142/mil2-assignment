@@ -7,6 +7,12 @@ body {
     margin: 0;
 }
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
 /* banner style starts */
 .top-banner1 {
     margin-top: 50px;
@@ -66,12 +72,6 @@ body {
 /* banner style ends */
 /* main style starts */
 
-
-.container {
-    width: 1140px;
-    margin: 0 auto;
-
-}
 
 .gird {
 
@@ -168,6 +168,7 @@ body {
     padding-left: 20px;
 }
 
+/* side blog style ends */
 /* main section ends */
 
 /* view button start */
@@ -186,7 +187,7 @@ body {
 
 }
 
-/* view button start */
+/* view button ends */
 
 /* footer style starts */
 .footer {
@@ -232,7 +233,7 @@ body {
     width: 1140px;
 } */
 
-/* footer style starts */
+/* footer style ends */
 
 /* upcoming match style starts */
 .button-um {
@@ -346,6 +347,7 @@ body {
     }
 }
 
+/* media query breakpoints mobile ends */
 /* media query breakpoints tablet starts */
 
 @media only screen and (max-width: 992px) and (min-width: 689px) {
