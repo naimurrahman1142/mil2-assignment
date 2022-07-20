@@ -3,16 +3,23 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #f0f0f0;
+    padding: 0;
+    margin: 0;
 }
 
 /* banner style starts */
-.top-banner {
+.top-banner1 {
+    margin-top: 50px;
+}
 
-    margin: 30px 130px 130px 180px;
+.top-banner {
+    margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 .banner-info {
     display: flex;
+    align-items: center;
     background-color: #161616;
     border-radius: 15px;
 }
@@ -49,29 +56,32 @@ body {
     margin-right: 45px;
 }
 
-/* banner style starts */
-#width {}
+/* banner style ends */
+/* main style starts */
+
 
 .container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.gird {
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 24px;
-
 }
 
 /* side box style starts */
 .box {
-    width: 312px;
-    height: 312px;
+    width: 240px;
+    height: 300px;
     background: #161616;
     border-radius: 10px;
-
-
 }
 
 .box-btn {
-
-    margin-left: 30px;
     padding: 30px;
 
 
@@ -82,19 +92,26 @@ body {
     background-color: white;
     color: black;
     font-size: 20px;
-    padding: 12px 19px;
+    padding: 10px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-weight: 500;
-
 }
 
 #group {
-    padding: 12px 52px;
+    padding: 12px 45px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
 }
 
+
 #blog-btn {
-    padding: 12px 75px;
+    padding: 10px 67px;
     background-color: #DD0000;
     color: white;
 }
@@ -109,17 +126,16 @@ body {
 }
 
 .tranfer-box {
-    width: 312px;
-    height: 362px;
+    width: 275px;
+    height: 100%;
     border-radius: 10px;
-    margin-top: 10px;
     border: 1px solid #E8E8E8;
     background-color: lightcoral;
+    padding-bottom: 10px;
 }
 
-.transfer-img,
-img {
-    width: 312px;
+.transfer-img img {
+    width: 275px;
     height: 175px;
     margin-top: -1px;
 }
@@ -135,17 +151,39 @@ img {
     border-radius: 5px;
 }
 
+.tranfer-info h3 {
+    font-size: 16px;
+}
+
 #font-awsome {
     display: flex;
-    justify-content: space-evenly;
-    padding-right: 88px;
+    justify-content: start;
+    padding-left: 20px;
 }
 
 /* main section ends */
+
+/* view button start */
+.main-button {
+    text-align: center;
+    margin-bottom: 40px;
+    display: visible;
+}
+
+.main-btn {
+    background-color: #DD0000;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+
+}
+
+/* view button start */
+
 /* footer style starts */
 .footer {
-    width: 1600px;
-    height: 444px;
+    width: 100%;
     background-color: #161616;
 
 }
@@ -159,11 +197,88 @@ img {
 
 .foot-short-text {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: CENTER;
 }
 
 .foot-icon {
     display: flex;
     justify-content: center;
+    font-size: 40px;
 
 }
+
+.foot-icon a {
+    padding: 0 20px;
+}
+
+.foot-text h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.foot-short-text h3 {
+    padding: 20px;
+}
+
+/* hr {
+    width: 1140px;
+} */
+
+/* footer style starts */
+
+/* upcoming match style starts */
+.button-um {
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#blog-btn-um {
+    padding: 10px 67px;
+    background-color: white;
+    color: black;
+}
+
+.tranfer-box-um {
+    width: 275px;
+    height: 50%;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background-color: lightcoral;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.transfer-um {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.flag-img img {
+    width: 80px;
+    height: 50px;
+}
+
+/* upcoming match style ends */
+
+/* All Group style starts */
+#group-grp {
+    padding: 12px 45px;
+    text-decoration: none;
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* All Group style ends */
