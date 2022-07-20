@@ -46,6 +46,13 @@ body {
     background-color: #DD0000;
     padding: 10px 20px;
     border-radius: 5px;
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 0 blue;
+
+}
+
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 blue;
 }
 
 .banner-img {
@@ -129,8 +136,8 @@ body {
     width: 275px;
     height: 100%;
     border-radius: 10px;
-    border: 1px solid #E8E8E8;
-    background-color: lightcoral;
+    border: 2px solid #E8E8E8;
+    background-color: whitesmoke;
     padding-bottom: 10px;
 }
 
@@ -167,7 +174,7 @@ body {
 .main-button {
     text-align: center;
     margin-bottom: 40px;
-    display: visible;
+    visibility: hidden;
 }
 
 .main-btn {
@@ -197,7 +204,7 @@ body {
 
 .foot-short-text {
     display: flex;
-    justify-content: CENTER;
+    justify-content: center;
 }
 
 .foot-icon {
@@ -249,8 +256,8 @@ body {
     width: 275px;
     height: 50%;
     border-radius: 10px;
-    border: 1px solid #E8E8E8;
-    background-color: lightcoral;
+    border: 2px solid #E8E8E8;
+    background-color: whitesmoke;
     padding-top: 40px;
     padding-bottom: 40px;
 
@@ -305,19 +312,15 @@ body {
     }
 
     .box {
-        background-color: white;
-        width: 100%;
-        height: 100%;
+        background-color: #f0f0f0;
     }
 
-    .top-banner {
-        align-items: center;
+    #width {
+        padding: 0px 200px;
     }
 
-    .grid {
-        display: none;
-        /* grid-template-columns: repeat(1, 1fr); */
-        flex-wrap: wrap;
+    .gird {
+        display: inline;
 
     }
 
@@ -327,4 +330,66 @@ body {
 
     }
 
+    .footer {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .foot-short-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-text h2 {
+        text-align: center;
+    }
 }
+
+/* media query breakpoints tablet starts */
+
+@media only screen and (max-width: 992px) and (min-width: 689px) {
+    .container {
+        width: 100%;
+    }
+
+    .gird {
+        display: inline;
+    }
+
+    .box {
+        background-color: #f0f0f0;
+    }
+
+    .box-btn {
+        padding: 10px 200px;
+        display: inline-flex;
+    }
+
+    .transfer-boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 24px;
+
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .main-button {
+        visibility: visible;
+    }
+
+    .footer {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .foot-short-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* media query breakpoints mobile starts */
